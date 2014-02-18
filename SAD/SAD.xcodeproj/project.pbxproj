@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3816A77918B38F9200ED0A58 /* NATelefonosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3816A77818B38F9200ED0A58 /* NATelefonosViewController.m */; };
 		D78C38D318B38B0B00279F81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78C38D218B38B0B00279F81 /* Foundation.framework */; };
 		D78C38D518B38B0B00279F81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78C38D418B38B0B00279F81 /* CoreGraphics.framework */; };
 		D78C38D718B38B0B00279F81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78C38D618B38B0B00279F81 /* UIKit.framework */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3816A77718B38F9200ED0A58 /* NATelefonosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NATelefonosViewController.h; sourceTree = "<group>"; };
+		3816A77818B38F9200ED0A58 /* NATelefonosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NATelefonosViewController.m; sourceTree = "<group>"; };
 		D78C38CF18B38B0B00279F81 /* SAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78C38D218B38B0B00279F81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D78C38D418B38B0B00279F81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3816A77618B38F9200ED0A58 /* telefono */ = {
+			isa = PBXGroup;
+			children = (
+				3816A77718B38F9200ED0A58 /* NATelefonosViewController.h */,
+				3816A77818B38F9200ED0A58 /* NATelefonosViewController.m */,
+			);
+			path = telefono;
+			sourceTree = "<group>";
+		};
 		D78C38C618B38B0B00279F81 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +121,7 @@
 			children = (
 				D78C38E118B38B0B00279F81 /* SAAppDelegate.h */,
 				D78C38E218B38B0B00279F81 /* SAAppDelegate.m */,
+				3816A77618B38F9200ED0A58 /* telefono */,
 				D78C38E418B38B0B00279F81 /* Images.xcassets */,
 				D78C38D918B38B0B00279F81 /* Supporting Files */,
 			);
@@ -242,6 +255,7 @@
 			files = (
 				D78C38E318B38B0B00279F81 /* SAAppDelegate.m in Sources */,
 				D78C38DF18B38B0B00279F81 /* main.m in Sources */,
+				3816A77918B38F9200ED0A58 /* NATelefonosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +456,7 @@
 				D78C38FD18B38B0B00279F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D78C38FE18B38B0B00279F81 /* Build configuration list for PBXNativeTarget "SADTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +465,7 @@
 				D78C390018B38B0B00279F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
