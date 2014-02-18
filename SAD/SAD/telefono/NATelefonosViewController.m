@@ -26,15 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-//    {
-//        CGFloat y = i * self.view.frame.size.height;
-//        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, y,self.view.frame.size.width, self .view.frame.size.height)];
-//        view.backgroundColor = [UIColor greenColor];
-//        [scrollview addSubview:view];
-//    }
-//    scrollview.contentSize = CGSizeMake(self.view.frame.size.width *viewcount, self.view.frame.size.height );
-//    [self.view addSubview:scrollview];
 	// Do any additional setup after loading the view.
     UIScrollView *scrollview = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     
