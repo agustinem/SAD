@@ -20,6 +20,7 @@
 		D78C38EE18B38B0B00279F81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78C38D618B38B0B00279F81 /* UIKit.framework */; };
 		D78C38F618B38B0B00279F81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D78C38F418B38B0B00279F81 /* InfoPlist.strings */; };
 		D78C38F818B38B0B00279F81 /* SADTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C38F718B38B0B00279F81 /* SADTests.m */; };
+		D78C390318B396F900279F81 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D78C390118B396F900279F81 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D78C38F318B38B0B00279F81 /* SADTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SADTests-Info.plist"; sourceTree = "<group>"; };
 		D78C38F518B38B0B00279F81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D78C38F718B38B0B00279F81 /* SADTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SADTests.m; sourceTree = "<group>"; };
+		D78C390218B396F900279F81 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		D78C38C618B38B0B00279F81 = {
 			isa = PBXGroup;
 			children = (
+				D78C390118B396F900279F81 /* Model.xcdatamodeld */,
 				D78C38D818B38B0B00279F81 /* SAD */,
 				D78C38F118B38B0B00279F81 /* SADTests */,
 				D78C38D118B38B0B00279F81 /* Frameworks */,
@@ -256,6 +259,7 @@
 				D78C38E318B38B0B00279F81 /* SAAppDelegate.m in Sources */,
 				D78C38DF18B38B0B00279F81 /* main.m in Sources */,
 				3816A77918B38F9200ED0A58 /* NATelefonosViewController.m in Sources */,
+				D78C390318B396F900279F81 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +472,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D78C390118B396F900279F81 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D78C390218B396F900279F81 /* Model.xcdatamodel */,
+			);
+			currentVersion = D78C390218B396F900279F81 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D78C38C718B38B0B00279F81 /* Project object */;
 }
